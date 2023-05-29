@@ -41,6 +41,9 @@ The JSON API RESTful was developed in NodeJS, express, Postgres database and ORM
     "phone": "3105305169"
 }
 
+<img width="462" alt="image" src="https://github.com/juandavidlasso/prueba_back/assets/58641888/ef3867eb-48df-43a1-ae93-1e49e94b4f69">
+
+
 4. When executing the request, first the pre-signed acceptance token will be obtained, in this case with my personal data, second the token of the card or Nequi payment method will be generated, third if the payment type is CARD, the source will be created payment with CARD, otherwise if it is NEQUI it will be created with the type of payment NEQUI.
 
 5. In the database, in the Riders table, the rider's record will be created with the information provided and in the Payments table, the payment method associated with the rider will be created.
@@ -57,6 +60,9 @@ The JSON API RESTful was developed in NodeJS, express, Postgres database and ORM
 }
 (The request validates if the user exists, otherwise it informs him that he does not exist.)
 
+<img width="464" alt="image" src="https://github.com/juandavidlasso/prueba_back/assets/58641888/95917aa5-d813-4ed3-8776-9fa29bf7c02c">
+
+
 3. When executing the request, the race will be created for the user and a random driver will be assigned.
 
 5. In the database in the Rides table, the record of the race will be inserted associating the driver and the user.
@@ -71,6 +77,9 @@ The JSON API RESTful was developed in NodeJS, express, Postgres database and ORM
     "idRide": "1"
 }
 (The id of the race must be some record that is already created in the database in the Rides Table, otherwise it indicates that the race does not exist.)
+
+<img width="462" alt="image" src="https://github.com/juandavidlasso/prueba_back/assets/58641888/a4d19bf2-827a-426d-bc0b-a4bccd6cce15">
+
 
 3. Please, wait some minutes to create difference between the start time of the ride an the finish time the ride.
 
